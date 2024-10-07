@@ -1,0 +1,28 @@
+.corpo_home{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem_lado{
+    width: 40%;
+    height: 550px;
+    background-image: url(../imgs/mala.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_lado{
+    width: 40%;
+    height: 450px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+h1{
+    color: blueviolet;
+}
