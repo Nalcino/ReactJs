@@ -17,7 +17,7 @@ function Rodape() {
                 <img src={tiktok} alt="tiktok" />
                 <img src={whats} alt="whats" />
             </div>
-            <h3>Telefone de Contato - (11) 4002-8922 </h3>
+            <h3>Telefone de Contato - (11) 4002-89222 </h3>
         </footer>
 
     )
