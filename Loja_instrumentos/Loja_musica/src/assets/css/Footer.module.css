@@ -1,0 +1,22 @@
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+
+.img_end{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.texto_end{
+    text-align: center;
+    color: #fff;
+   padding: 15px;
+}
+
+.redes_end{
+    justify-content: center;
+    display: flex;
+}

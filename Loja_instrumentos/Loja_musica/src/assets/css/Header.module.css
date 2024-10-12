@@ -1,0 +1,32 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content:end; 
+    align-items: end;
+    height: 180px;
+    color: black;
+    background-image: url('../imgs/guitarras_header.jpg');
+    background-size: cover;
+}
+
+nav{  
+   position: absolute; 
+   margin-right: 30px;  
+   justify-content: space-around;
+   margin-bottom: 30px; 
+   padding: 15px; 
+   flex-direction: row;
+   background-color: #fff;
+}
+
+nav a{
+   text-decoration: none; 
+   margin: 30px;
+   color:rgb(102, 48, 48);
+}
+
+nav a:hover{
+   background-color: chocolate;
+   color: blue;
+   transition:  2s all;
+}

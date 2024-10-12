@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .Sidebar-icon{
+    @apply 
+  }
+
+
+/* @layer base {
+  h1 {
+    @apply text-5xl;
+  }
+}
+
+@layer components{
+  .card{
+    @apply w-30 h-30 
+  }
+} */
