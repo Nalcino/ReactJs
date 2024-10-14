@@ -1,21 +1,19 @@
 
 import homer from './assets/imagens/homer.gif'
 import gifs from './assets/imagens/gifs_sao_legais.gif'
+import viola from './assets/imagens/guitarrinha.jpg'
 import './App.css'
-
-
 function App() {
+  let nome = "Paulo"
+  let idade = "22"
 
   return (
     <>
-      <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={homer} className='homer' alt="React logo" />
-        </a>
-      </div>
-      <h1>Testando o meu primeiro app em REACT_JS</h1>
-      <img src={gifs} className='gifs' alt="" />
-      
+      <h1>Olá mundo!</h1>
+      <img src={guitarra} alt="guitarra" />
+      {nome} = {typeof(nome)}
+      <br />
+      {idade} = {typeof(idade)}
     </>
   )
 }
