@@ -1,5 +1,9 @@
+main{
+    display: flex;
+    justify-content: left;
+}
 .bloco{
-    width: 100%;
+    width: 99%;
     height: 450px;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -30,7 +34,7 @@
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
     margin: 10px;
     background-image: url('../imgs/face.png');
     background-size: cover;
@@ -61,3 +65,9 @@ h3{
     align-items: center;
     justify-content: center;
 }
+
+.rede{
+    display: flex;
+    border: 2px solid;
+}
+

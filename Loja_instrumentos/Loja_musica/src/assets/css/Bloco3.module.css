@@ -9,7 +9,6 @@
 .texto{
     width: 40%;
     height: 350px;
-    background-color: rgb(88, 88, 88);
     display: flex;
     text-align: start;
     margin: 30px;
@@ -18,10 +17,12 @@
 .loja{
     width: 40%;
     height: 350px;
-    background-color: rgba(238, 162, 204, 0.479);
+    background-color: rgba(238, 162, 204, 0.295);
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
     margin: 30px;
+    color: #fff;
 }
 
 .loja img{

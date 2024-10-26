@@ -3,6 +3,8 @@ import styles from '../css/Bloco3.module.css'
 function Bloco3(){
 
     return(
+        <main>
+
         <div className={styles.bloco}>
         <div className={styles.texto}>
         <iframe
@@ -10,13 +12,16 @@ function Bloco3(){
                     width="600"
                     height="350"
                     style={{ border: '0' }}
-                ></iframe>
+                    ></iframe>
         </div>
         <div className={styles.loja}>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil dolores deserunt quas dolor. Ut ducimus natus unde ullam consectetur nostrum perferendis dolor esse quasi fugiat, quod quis eius, incidunt optio!</p>
+            <h1>Nossa Loja- Instrumentos Musicais</h1>
+            <p>Está cituada na Rua Tito,54 - pompeia, proximo ao teatro cacilda becker, em uma construção do seculo XIX, numa área de 500m2, com uma variada gama de instrumentos, em um ambiente agradavel para toda a familia.</p>
+            
             <br />
         </div>
     </div>
+                    </main>
     )
 }
 

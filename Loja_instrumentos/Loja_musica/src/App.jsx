@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Header from './assets/components/Header'
 import Footer from './assets/components/Footer'
@@ -10,12 +11,17 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Bloco1/>
-      <Bloco2/>
-      <Bloco3/>
-      <Bloco4/>
-      <Footer/>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Bloco1 />} />
+          <Route path='Bloco1' element={<Bloco1 />} />
+          <Route path='Bloco2' element={<Bloco2 />} />
+          <Route path='Bloco3' element={<Bloco3 />} />
+          <Route path='Bloco4' element={<Bloco4 />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
   )
 }

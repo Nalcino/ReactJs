@@ -1,14 +1,15 @@
 import styles from '../css/Header.module.css'
+import{Link} from 'react-router-dom'
 
 function Header(){
     return(
        <header>
              <nav >
-            <a href="#">home</a>
-            <a href="#">Quem somos</a>
-            <a href="#">Instrumentos</a>
-            <a href="#">Endereço</a>
-            <a href="#">Contato</a>
+            <a> <Link to='/'>home</Link></a>
+            <a><Link to='Bloco1'>Quem Somos</Link></a>
+            <a><Link to='Bloco2'>Instrumentos</Link></a>
+            <a><Link to='Bloco3'>Endereço</Link></a>
+            <a><Link to='Bloco4'>Contato</Link></a>
         </nav>
        </header>
     )
